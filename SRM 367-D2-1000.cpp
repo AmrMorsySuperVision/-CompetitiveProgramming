@@ -1,3 +1,12 @@
+/*
+        - I always need to begin from the start of the offset and end at the nearst ciel value
+        - sort the offsets
+        - make a pointer marks the end of data 
+        - Count the number of blocks needed for the current offset if the pointer is less that the offset then set the pointer = offset 
+        - else let the pointer be the offset
+
+*/
+
 #include <vector>
 #include <list>
 #include <map>
