@@ -1,3 +1,13 @@
+/*
+
+    - each letter depend on the ones in it's prefix 
+    - since the chars are distinct make a map<char,vector> for every char the chars it depends on
+    - on each iteration search for the char you can add to the answer and if there's multiple solution take the smallest
+    - Rerun until the string is complete
+
+*/
+
+
 #include <vector>
 #include <list>
 #include <map>
