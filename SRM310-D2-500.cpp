@@ -1,3 +1,13 @@
+/*
+       - it's easier to work with string so convert the numbers into strings
+       - Form the first smallest number I can for using the current numbers I have that will also >= Given smallest
+       - To form the number there's 3 options The given number completely match the prefix of the smallest number in this case the number I can form = smallest number
+       - Case 2 : the first case of differ is that the number I have num[i]>smallest[i] in this case just add 0's until thier size match
+       - Case 3 : the first case of differ is that the number I have num[i]<smallest[i] in this case just add 0's until the size of the smaller one is strictly less than the number
+       - Compare it with the constrains
+*/
+
+
 #include <vector>
 #include <list>
 #include <map>
