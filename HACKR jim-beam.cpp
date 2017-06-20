@@ -1,3 +1,11 @@
+/*
+	    - Calculate the Cross product of on line to another 
+        - it'll get the area of 2 different parallelogram 
+        - if the 2 area's have a different signs this means it intersect else if the area equals to zero the point lie on the same line 
+        so need to check if it is inside the segement 
+*/
+
+
 #include<bits/stdc++.h>
 
 using namespace std;
