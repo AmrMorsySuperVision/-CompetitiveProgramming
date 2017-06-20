@@ -1,3 +1,13 @@
+/*
+
+        - first run the permutation to get all points combinations
+        - check the square properties on each combination
+        - if the distance between every 2 consecutive points is equal and the angle between each consecutive line is 90 then answer is found return yes
+
+*/
+
+
+
 #include <vector>
 #include <list>
 #include <map>
