@@ -1,6 +1,4 @@
 /*
-	Author: Youssef ElGhareeb
-	
 	Idea: 
 		- It's straight forward shortest path problem between every pair with low constrains
 		- Let Each name has it's unique integer id and run floyd
