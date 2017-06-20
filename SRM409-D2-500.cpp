@@ -1,3 +1,11 @@
+/*
+	  - The start of the search always increase or stay the same 
+      - make a start index initially 0
+      - on each word check if there's a match in the orginal string if there's update start 
+      - if not add it to the end of the word and update start to the string size
+*/
+
+
 #include <vector>
 #include <list>
 #include <map>
