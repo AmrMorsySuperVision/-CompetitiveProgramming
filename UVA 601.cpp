@@ -1,3 +1,16 @@
+/*
+	Idea: 
+		- There's only 4 possible way for this game in order
+            1- White already won the game
+            2- Black already won the game
+            3- White will win in one move
+            4- Black will win in one move
+        - For each case make it's own dfs function in case {1,2} just check if there's path from the left to the right or top to down
+        - For case {3,4} Carry a bool that tells you if you used your one move or not
+*/
+
+
+
 #include<bits/stdc++.h>
 
 using namespace std;
