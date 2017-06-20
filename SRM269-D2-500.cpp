@@ -1,3 +1,10 @@
+/*
+	- Can't change the letter's order so each block between 2 letters can be solved spreadly
+	- For each block counter the number of ? and if there's * mark a flag
+	- Add first the * if the flag is true then add the number of ? found
+*/
+
+
 #include <vector>
 #include <list>
 #include <map>
