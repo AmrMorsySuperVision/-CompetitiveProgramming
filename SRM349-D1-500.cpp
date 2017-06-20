@@ -1,3 +1,13 @@
+/*
+	-First my idea was to memorize but could figure how after reading the first 2 lines in the tutorial I starting looking for the building table solution
+	The solution is similar to the one in the tutorial ==> 
+	" The most common approach to the problem goes something like this: How many formations can be made is the number of
+	non-decreasing sequences that can be made from the dice. So, how do we get the number of such sequences? If we consider 
+	the possible values that end (or start) the sequence, then we know that the previous (or next) n-1 terms of the sequence 
+	must all be less than or equal to this value. This leads us to a fairly straightforward DP solution (shown below). "
+*/
+
+
 #include <vector>
 #include <list>
 #include <map>
