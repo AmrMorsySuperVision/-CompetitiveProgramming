@@ -1,3 +1,10 @@
+/*
+	Idea: 
+		- run dijkstra to find the shortest path between the start and the end nodes
+        - if path found print it if not use the direct free path
+*/
+
+
 #include<bits/stdc++.h>
 
 using namespace std;
