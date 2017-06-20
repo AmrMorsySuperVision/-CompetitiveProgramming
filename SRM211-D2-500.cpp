@@ -1,3 +1,8 @@
+/*
+	- On each word count the match if it's > maxMatch update answer and maxMatch
+*/
+
+
 #include <vector>
 #include <list>
 #include <map>
