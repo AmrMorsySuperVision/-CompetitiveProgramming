@@ -1,3 +1,12 @@
+/*
+	Author: Youssef ElGhareeb
+	
+	Idea: 
+		- It's straight forward shortest path problem between every pair with low constrains
+		- Let Each name has it's unique integer id and run floyd
+		- on each entry get the shortest path for A => B then from B => A
+*/
+
 #include<bits/stdc++.h>
 
 using namespace std;
