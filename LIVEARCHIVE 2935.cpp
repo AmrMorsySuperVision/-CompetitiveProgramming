@@ -1,5 +1,5 @@
 /*
-	- Using a tree property that there's a uniqe path between each 2 nodes
+	- Using a tree property that there's a unique path between each 2 nodes
 	- For each subtree find the string the represt it after that recall the function to find the smallest string in the current sub tree
 
 */
