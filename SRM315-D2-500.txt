@@ -1,0 +1,47 @@
+#include <vector>
+#include <list>
+#include <map>
+#include <set>
+/*
+	repeating the process until there's only one digit
+
+*/
+
+
+#include <queue>
+#include <deque>
+#include <stack>
+#include <bitset>
+#include <algorithm>
+#include <functional>
+#include <numeric>
+#include <utility>
+#include <sstream>
+#include <iostream>
+#include <iomanip>
+#include <cstdio>
+#include <cmath>
+#include <cstdlib>
+#include <ctime>
+#include<bits/stdc++.h>
+
+
+using namespace std;
+
+
+class DigitsSum {
+public:
+	int lastDigit(int n) {
+		while(n/10>0)
+		{
+			int sum=0;
+			while(n)
+			{
+				sum+=(n%10);
+				n/=10;
+			}
+			n=sum;
+		}
+		return n;
+	}
+};
